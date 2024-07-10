@@ -216,7 +216,8 @@ nav{
     padding: 40px;
     border-radius: 16px;
 }
-.current-target-item h3{
+.current-target-item h3,
+.next-terget-item-content h3{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 24px;
@@ -225,7 +226,8 @@ nav{
     letter-spacing: 0%;
     margin: 8px 0;
 }
-.current-target-item a{
+.current-target-item a,
+.next-terget-item-content a{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -233,4 +235,23 @@ nav{
     line-height: 19px;
     margin-top: 24px;
     display: block;
+}
+
+/* My next terget section ====== */
+
+.next-target{
+    margin-top: 110px;
+}
+.next-target-item-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.next-target-item{
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
