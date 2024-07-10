@@ -131,7 +131,7 @@ nav{
 /* why-web-development section ======== */
 
 .why-web-dev{
-    padding: 80px;
+    padding: 80px 95px;
     margin-top: 70px;
 }
 
@@ -172,7 +172,7 @@ nav{
    
     display: flex;
     align-items: center;
-    gap: 120px;
+    gap: 32px;
 }
 
 /* Inspiration section ============ */
@@ -251,6 +251,99 @@ nav{
     padding: 40px;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+/* support section ================= */
+
+.support-section{
+    margin-top: 40px;
+}
+
+.support-bg-img{
+    background-image: url(../assets/handshake.jpg);
+    min-height: 314px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+    mix-blend-mode: overlay;
+}
+
+.support-content{
+    text-align: center;
+    padding: 64px 48px;
+}
+.support-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin-bottom: 12px;
+}
+
+.support-content .desc-text{
+    color: white;
+}
+.support-content form{
+    width: 680px;
+    display: inline-flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 40px;
+}
+.support-content form input{
+    width: 100%;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    height: 57px;
+    padding: 5px 20px;
+    color: black;
+    border: none;
+    font-size: 16px;
+}
+
+.support-content form input:focus{
+    outline: none;
+}
+
+.support-content form button{
+    padding: 17px 20px;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/* Footer section =============== */
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.footer-container .footer-text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+.footer-container .footer-socials{
     display: flex;
     align-items: center;
     gap: 24px;
