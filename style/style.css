@@ -191,3 +191,46 @@ nav{
    height: 550px;
    border-radius: 16px; 
 }
+
+/* Current Target section ======== */
+
+.current-target{
+    margin-top: 120px;
+}
+.current-target-item-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.item-1-bg{
+    background: rgba(255, 76, 30, 0.05);
+}
+.item-2-bg{
+    background: rgba(0, 76, 232, 0.05);
+}
+.item-3-bg{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.current-target-item{
+    padding: 40px;
+    border-radius: 16px;
+}
+.current-target-item h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin: 8px 0;
+}
+.current-target-item a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-top: 24px;
+    display: block;
+}
