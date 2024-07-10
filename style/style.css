@@ -13,7 +13,7 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 
-/* Common Styles */
+/* Common Styles ===========*/
 
 .section-container{
     max-width: 1140px;
@@ -22,7 +22,7 @@ body{
 
 .section-title{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
@@ -33,7 +33,7 @@ body{
 
 .desc-text{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -48,7 +48,7 @@ body{
 }
 
 
-/* Header Styles */
+/* Header Styles ==================*/
 
 nav{
     background-color: white;
@@ -70,7 +70,7 @@ nav{
 .download-btn{
     color: rgb(13, 19, 33);
     font-size: 20px;
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
@@ -82,7 +82,7 @@ nav{
     cursor: pointer;
 }
 
-/* Banner Styles */
+/* Banner Styles =================*/
 
 .banner-area{
     background-image: url(../assets/Hero-bg.png);
@@ -96,7 +96,6 @@ nav{
 
 .banner-content{
     padding: 25px 100px 0;
-
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -107,7 +106,7 @@ nav{
 .banner-content .banner-title{
     color: rgb(13, 19, 33);
     font-size: 48px;
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-weight: 800;
     line-height: 60px;
     margin: 24px 0;
@@ -146,7 +145,7 @@ nav{
 }
 .why-web-dev-item-title{
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -155,7 +154,7 @@ nav{
 }
 .learn-more-btn{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
@@ -169,7 +168,6 @@ nav{
 
 .why-web-dev-item-2{
     padding: 48px;
-   
     display: flex;
     align-items: center;
     gap: 32px;
@@ -219,7 +217,7 @@ nav{
 .current-target-item h3,
 .next-terget-item-content h3{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
@@ -229,7 +227,7 @@ nav{
 .current-target-item a,
 .next-terget-item-content a{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
@@ -269,8 +267,8 @@ nav{
     background-size: cover;
     background-position: center;
     border-radius: 16px;
-    background-color: rgba(13, 19, 33, 0.02);
-    mix-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
 }
 
 .support-content{
@@ -279,7 +277,7 @@ nav{
 }
 .support-title{
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-size: 32px;
     font-weight: 700;
     line-height: 36px;
@@ -317,7 +315,7 @@ nav{
     padding: 17px 20px;
     border-radius: 8px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
@@ -337,7 +335,7 @@ nav{
 
 .footer-container .footer-text{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
